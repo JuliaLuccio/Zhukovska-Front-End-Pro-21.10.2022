@@ -1,5 +1,7 @@
-let number = '54321';
+let number = 54321;
 
-const numberWithSpace = `${number[0]} ${number[1]} ${number[2]} ${number[3]} ${number[4]}`;
+const numToString = String(number);
+
+const numberWithSpace = `${numToString[0]} ${numToString[1]} ${numToString[2]} ${numToString[3]} ${numToString[4]}`;
 
 console.log(numberWithSpace);
