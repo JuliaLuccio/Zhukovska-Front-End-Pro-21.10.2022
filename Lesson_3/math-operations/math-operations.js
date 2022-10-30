@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
    const resultDivTwoNum = firstNumber / secondNumber;
 
    if (firstNumber !== firstNumber || secondNumber !== secondNumber) {
-      alert(`Ви ввели не число! Спробуйте ще раз.`);
+      alert('Ви ввели не число! Спробуйте ще раз.');
    } else {
       alert(`Користувач ввів ${firstNumber} і ${secondNumber}:
       ${firstNumber} + ${secondNumber} = ${resultAddTwoNum}
