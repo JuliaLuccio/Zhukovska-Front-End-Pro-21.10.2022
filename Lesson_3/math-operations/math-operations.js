@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
    const resultMultTwoNum = firstNumber * secondNumber;
    const resultDivTwoNum = firstNumber / secondNumber;
 
-   if (firstNumber !== firstNumber || secondNumber !== secondNumber) {
+   if (isNaN(firstNumber) || isNaN(secondNumber)) {
       alert('Ви ввели не число! Спробуйте ще раз.');
    } else {
       alert(`Користувач ввів ${firstNumber} і ${secondNumber}:
