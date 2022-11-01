@@ -10,30 +10,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
    const number1 = Number(prompt('Введіть перше число для дії'));
 
-   if (number1 !== number1) {
+   if (isNaN(number1)) {
       return alert('Ви ввели не число! Спробуйте ще раз!');
    }
 
    const number2 = Number(prompt('Введіть друге число для дії'));
 
-   if (number2 !== number2) {
+   if (isNaN(number2)) {
       return alert('Ви ввели не число! Спробуйте ще раз!');
    }
-
-   const resultAddTwoNum = number1 + number2;
-   const resultSubTwoNum = number1 - number2;
-   const resultMultTwoNum = number1 * number2;
-   const resultDivTwoNum = number1 / number2;
-
+   
    if (whatMathOperation === '+' || whatMathOperation === 'add') {
+      const resultAddTwoNum = number1 + number2;
       alert(`${number1} + ${number2} = ${resultAddTwoNum}`);
    } else if (whatMathOperation === '-' || whatMathOperation === 'sub') {
+      const resultSubTwoNum = number1 - number2;
       alert(`${number1} - ${number2} = ${resultSubTwoNum}`);
    } else if (whatMathOperation === '*' || whatMathOperation === 'mult') {
+      const resultMultTwoNum = number1 * number2;
       alert(`${number1} * ${number2} = ${resultMultTwoNum}`);
    } else if (whatMathOperation === '/' || whatMathOperation === 'div') {
+      const resultDivTwoNum = number1 / number2;
       alert(`${number1} / ${number2} = ${resultDivTwoNum}`);
-   } else {
-      alert('Щось пішло не так, спробуйте ще раз!');
    }
    })
