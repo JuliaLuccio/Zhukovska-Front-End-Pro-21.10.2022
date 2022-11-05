@@ -1,13 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
    const whatMathOperation = prompt('Яку з доступних дій (add +, sub -, mult *, div /) бажаєте виконати?');
 
-   if (whatMathOperation !== '+' && whatMathOperation !== 'add'
-   && whatMathOperation !== '-' && whatMathOperation !== 'sub'
-   && whatMathOperation !== '*' && whatMathOperation !== 'mult'
-   && whatMathOperation !== '/' && whatMathOperation !== 'div') {
-      return alert('Спробуйте вибрати одну з запропонованих дій:\n add\n +\n sub\n -\n mult\n *\n div\n /');
-   }
-
    const number1 = Number(prompt('Введіть перше число для дії'));
 
    if (isNaN(number1)) {
@@ -32,5 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
    } else if (whatMathOperation === '/' || whatMathOperation === 'div') {
       const resultDivTwoNum = number1 / number2;
       alert(`${number1} / ${number2} = ${resultDivTwoNum}`);
+   } else {
+      alert(`Ви ввели "${whatMathOperation}". Такої дії не існує. Спробуйте ще раз, вибравши одну з запропонованих дій:\n add\n +\n sub\n -\n mult\n *\n div\n /`);
    }
    })
