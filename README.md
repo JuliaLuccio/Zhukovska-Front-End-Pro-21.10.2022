@@ -1,8 +1,74 @@
 # Front End Pro 21.10.2022
 
-## Lesson 4
+## Lesson 5
 
 <details open>
+<summary>
+
+#### [More complex cycles](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_5/more-complex-cycles/). Деталі завдання
+
+</summary>
+
+Написати цикли, які роблять наступне:  
+
+1. Вивести числа від 20 до 30 через пропуск, використовуючи крок 0,5 (20 20,5 21 21,5….).
+2. Один долар коштує 27 гривень. Вивести дані з розрахунком вартості 10, 20, 30... 100 доларів.
+3. Дане ціле число. Вивести всі цілі числа від 1 до 100, квадрат яких не перевищує числа N.
+4. Дане ціле число. З'ясувати, чи є воно простим (простим називається число, більше 1, які не мають інших дільників крім 1 і себе).
+5. Дане деяке число. Визначити, чи можна одержати це число шляхом зведення числа 3 у деякий ступінь. (Наприклад, числа 9, 81 можна отримати, а 13 - не можна).
+
+</details>
+
+<details open>
+<summary>
+
+#### [Writing the cycles](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_5/the_cycles/). Деталі завдання
+
+</summary>
+
+Написати цикли, які зможуть:
+
+1. Вивести на сторінку в один рядок через кому числа від 10 до 20.
+2. Вивести квадрати чисел від 10 до 20.
+3. Вивести таблицю множення на 7.
+4. Знайти суму всіх цілих чисел від 1 до 15.
+5. Знайти добуток усіх цілих чисел від 15 до 35.
+6. Знайти середнє арифметичне всіх цілих чисел від 1 до 500.
+7. Вивести суму лише парних чисел в діапазоні від 30 до 80.
+8. Вивести всі числа в діапазоні від 100 до 200 кратні 3.
+9. Дано натуральне число. Знайти та вивести на сторінку всі його дільники.
+10. Визначити кількість його парних дільників.
+11. Знайти суму його парних дільників.
+12. Надрукувати повну таблицю множення від 1 до 10.
+
+</details>
+
+<details open>
+<summary>
+
+#### [Rewrite switch case](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_5/rewrite-switch-case/). Деталі завдання
+
+</summary>
+
+Переписати конструкцію `if`...`else` з використанням конструкції `switch`…`case`  
+
+> let numOrStr = prompt('input number or string');  
+console.log(numOrStr);  
+if (numOrStr === null) {  
+console.log('ви скасували');  
+} else if( numOrStr.trim() === '' ) {  
+console.log('Empty String');  
+} else if ( isNaN( +numOrStr ) ) {  
+console.log(' number is Ba_NaN');  
+} else {  
+console.log('OK!');  
+}  
+
+</details>
+
+## Lesson 4
+
+<details>
 <summary>
 
 #### [User portrait](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_4/). Деталі завдання
@@ -84,7 +150,7 @@
 
 </details>
 
-<details open>
+<details>
 <summary>
 
 #### [Calculator](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_3/calculator/). Деталі завдання
