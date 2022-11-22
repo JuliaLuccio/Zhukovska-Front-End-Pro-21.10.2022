@@ -18,6 +18,16 @@ const key = generateKey(16, characters);
 console.log(key); // eg599gb60q926j8i 
 ```
 
+#### [Function removeElement](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_7/funcRemoveElement/). Деталі завдання
+
+</summary>
+
+* Реалізуйте функцію removeElement(array, item), щоб видалити елемент item з масиву array.
+
+> const array = [1, 2, 3, 4, 5, 6, 7];  
+removeElement(array, 5);  
+console.log(array); // Результат: [1, 2, 3, 4, 6, 7]  
+
 </details>
 
 ## Lesson 6
