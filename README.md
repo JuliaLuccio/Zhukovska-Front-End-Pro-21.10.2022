@@ -1,7 +1,27 @@
 # Front End Pro 21.10.2022
 
-## Lesson 6
+## Lesson 7
 <details open>
+<summary>
+
+#### [Function generateKey](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_7/func-generateKey/). Деталі завдання
+
+</summary>
+
+* Реалізуйте функцію generateKey(length, characters), яка повертає рядок випадкових символів із набору characters довжиною length.
+
+Наприклад:
+
+```
+const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';  
+const key = generateKey(16, characters);  
+console.log(key); // eg599gb60q926j8i 
+```
+
+</details>
+
+## Lesson 6
+<details>
 <summary>
 
 #### [User bills](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_6/array/). Деталі завдання
@@ -15,7 +35,7 @@
 
 </details>
 
-<details open>
+<details>
 <summary>
 
 #### [The array](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_6/user-bills/). Деталі завдання
