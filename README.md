@@ -1,8 +1,25 @@
 # Front End Pro 21.10.2022
 
-## Lesson 8
+## Lesson 9
 
 <details open>
+<summary>
+
+#### [The Recursive](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_9/). Деталі завдання
+
+</summary>
+
+Реалізувати рекурсивну функцію, яка зводить число в ступінь.
+
+Число, яке треба піднести до ступеню, передається як перший аргумент у функцію.
+
+Ступінь передається, як другий аргумент у функцію pow (num, degree).
+
+</details>
+
+## Lesson 8
+
+<details>
 <summary>
 
 #### [Few Functions](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_8/). Деталі завдання
