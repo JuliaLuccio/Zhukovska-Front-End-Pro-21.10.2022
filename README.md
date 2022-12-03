@@ -1,8 +1,30 @@
 # Front End Pro 21.10.2022
 
-## Lesson 9
+## Lesson 10
 
 <details open>
+<summary>
+
+#### [Closures functions](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_10/). Деталі завдання
+
+</summary>
+
+Написати функцію із замиканнями, яка приймає 1 параметр (той, що передали перший раз і т.д.).  
+Наприклад:
+
+```
+sum(3) = 3
+
+sum(5) = 8
+
+sum(20) = 28
+```
+
+</details>
+
+## Lesson 9
+
+<details>
 <summary>
 
 #### [The Recursive](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_9/). Деталі завдання
