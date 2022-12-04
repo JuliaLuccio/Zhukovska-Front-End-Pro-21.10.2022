@@ -127,12 +127,12 @@ document.addEventListener('DOMContentLoaded', () => {
    // }
 
    // var#2
-   const removeSymb = (str, symbArr) => {
-      const filterSymb = [...str].filter((char) => {
+   const removeSymb = ([...str], symbArr) => {
+      const filterSymb = str.filter(char => {
          return symbArr.indexOf(char) === -1;
-      })
-      return filterSymb.join('').toString();
-   }
+      });
+      return filterSymb.join('');
+   };
 
    console.log(removeSymb("hello world", ['l', 'd']))
 
