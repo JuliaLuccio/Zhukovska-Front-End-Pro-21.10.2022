@@ -5,7 +5,7 @@
 <details open>
 <summary>
 
-#### [Closures functions](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_10/). Деталі завдання
+#### [Closures functions](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson10/). Деталі завдання
 
 </summary>
 
