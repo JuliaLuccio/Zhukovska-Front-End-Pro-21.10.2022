@@ -5,7 +5,7 @@
 <details open>
 <summary>
 
-#### [Closures functions](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson10/). Деталі завдання
+#### [Closures functions](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_10/). Деталі завдання
 
 </summary>
 
@@ -27,7 +27,7 @@ sum(20) = 28
 <details>
 <summary>
 
-#### [The Recursive](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_9/). Деталі завдання
+#### [The Recursive](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-9/). Деталі завдання
 
 </summary>
 
@@ -44,7 +44,7 @@ sum(20) = 28
 <details>
 <summary>
 
-#### [Few Functions](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_8/). Деталі завдання
+#### [Few Functions](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-8/). Деталі завдання
 
 </summary>
 
@@ -61,7 +61,7 @@ sum(20) = 28
 <details>
 <summary>
 
-#### [Function generateKey](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_7/func-generateKey/). Деталі завдання
+#### [Function generateKey](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-7/func-generateKey/). Деталі завдання
 
 </summary>
 
@@ -75,7 +75,7 @@ const key = generateKey(16, characters);
 console.log(key); // eg599gb60q926j8i 
 ```
 
-#### [Function removeElement](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_7/funcRemoveElement/). Деталі завдання
+#### [Function removeElement](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-7/funcRemoveElement/). Деталі завдання
 
 </summary>
 
@@ -91,7 +91,7 @@ console.log(array); // Результат: [1, 2, 3, 4, 6, 7]
 <details>
 <summary>
 
-#### [User bills](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_6/array/). Деталі завдання
+#### [User bills](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-6/array/). Деталі завдання
 
 </summary>
 
@@ -105,7 +105,7 @@ console.log(array); // Результат: [1, 2, 3, 4, 6, 7]
 <details>
 <summary>
 
-#### [The array](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_6/user-bills/). Деталі завдання
+#### [The array](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-6/user-bills/). Деталі завдання
 
 </summary>
 
@@ -183,7 +183,7 @@ let users = [
 <details>
 <summary>
 
-#### [More complex cycles](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_5/more-complex-cycles/). Деталі завдання
+#### [More complex cycles](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-5/more-complex-cycles/). Деталі завдання
 
 </summary>
 
@@ -200,7 +200,7 @@ let users = [
 <details>
 <summary>
 
-#### [Writing the cycles](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_5/the_cycles/). Деталі завдання
+#### [Writing the cycles](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-5/the_cycles/). Деталі завдання
 
 </summary>
 
@@ -224,7 +224,7 @@ let users = [
 <details>
 <summary>
 
-#### [Rewrite switch case](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_5/rewrite-switch-case/). Деталі завдання
+#### [Rewrite switch case](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-5/rewrite-switch-case/). Деталі завдання
 
 </summary>
 
@@ -249,7 +249,7 @@ console.log('OK!');
 <details>
 <summary>
 
-#### [User portrait](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_4/). Деталі завдання
+#### [User portrait](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-4/). Деталі завдання
 
 </summary>
 
@@ -283,7 +283,7 @@ console.log('OK!');
 <details>
 <summary>
 
-#### [Average value](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_3/average-value/). Деталі завдання
+#### [Average value](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-3/average-value/). Деталі завдання
 
 </summary>
 
@@ -297,7 +297,7 @@ console.log('OK!');
 <details>
 <summary>
 
-#### [Hours to seconds](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_3/hours-to-seconds/). Деталі завдання
+#### [Hours to seconds](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-3/hours-to-seconds/). Деталі завдання
 
 </summary>
 
@@ -313,7 +313,7 @@ console.log('OK!');
 <details>
 <summary>
 
-#### [Mathematical operations](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_3/math-operations/). Деталі завдання
+#### [Mathematical operations](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-3/math-operations/). Деталі завдання
 
 </summary>
 
@@ -331,7 +331,7 @@ console.log('OK!');
 <details>
 <summary>
 
-#### [Calculator](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_3/calculator/). Деталі завдання
+#### [Calculator](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-3/calculator/). Деталі завдання
 
 </summary>
 
@@ -364,7 +364,7 @@ console.log('OK!');
 <details>
 <summary>
 
-#### [Numbers and Strings](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_2/). Деталі завдання
+#### [Numbers and Strings](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-2/). Деталі завдання
 
 </summary>
 
@@ -378,7 +378,7 @@ console.log('OK!');
 <details>
 <summary>
 
-#### [Hello User](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_1/). Деталі завдання
+#### [Hello User](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-1/). Деталі завдання
 
 </summary>
 
