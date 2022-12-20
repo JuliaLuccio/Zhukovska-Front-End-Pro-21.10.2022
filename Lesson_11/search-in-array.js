@@ -23,18 +23,38 @@ document.addEventListener('DOMContentLoaded', () => {
    console.log(`1. Sum of positive elements ${posNumSum} and count ${posNumCount}`)
 
    // 2. Find the minimum array element and its sequence number.
+   // var1
 
-   const minValue = Math.min(...arrayOfNumbers);
-   const seqMinNumber = arrayOfNumbers.indexOf(minValue) + 1;
+   // const minValue = Math.min(...arrayOfNumbers);
+   // const seqMinNumber = arrayOfNumbers.indexOf(minValue) + 1;
 
-   console.log(`2. Minimal element is ${minValue} and its sequence number ${seqMinNumber}`);
+   // console.log(`2. Minimal element is ${minValue} and its sequence number ${seqMinNumber}`);
+
+   // var2
+
+   const getElemAndIndexFromArr = (arr, operation) => {
+      const elem = Math[operation](...arr);
+      const number = arr.indexOf(elem) + 1;
+      return {elem, number}
+   }
+
+   const seqMinNumber = getElemAndIndexFromArr(arrayOfNumbers, 'min');
+
+   console.log(`2. Minimal element is ${seqMinNumber.elem} and its sequence number ${seqMinNumber.number}`);
 
    // 3. Find the maximum array element and its sequence number.
+   // var1
 
-   const maxValue = Math.max(...arrayOfNumbers);
-   const seqMaxNumber = arrayOfNumbers.indexOf(maxValue) + 1;
+   // const maxValue = Math.max(...arrayOfNumbers);
+   // const seqMaxNumber = arrayOfNumbers.indexOf(maxValue) + 1;
 
-   console.log(`3. Maximum element is ${maxValue} and its sequence number ${seqMaxNumber}`);
+   // console.log(`3. Maximum element is ${maxValue} and its sequence number ${seqMaxNumber}`);
+
+   // var2
+
+   const seqMaxNumber = getElemAndIndexFromArr(arrayOfNumbers, 'max');
+
+   console.log(`3. Maximum element is ${seqMaxNumber.elem} and its sequence number ${seqMaxNumber.number}`);
 
    // 4. Determine the count of negative elements.
 
@@ -76,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
    // 10. Find the largest among the elements of the array, reset the rest to zero.
 
-   const resetExceptMaxNum = arrayOfNumbers.map( current => (current !== maxValue) ? 0 : current );
+   const resetExceptMaxNum = arrayOfNumbers.map( current => (current !== seqMaxNumber.elem) ? 0 : current );
 
    console.log('10. Original array\n', arrayOfNumbers);
    console.log('10. The largest element stay and the rest are reset\n', resetExceptMaxNum);
