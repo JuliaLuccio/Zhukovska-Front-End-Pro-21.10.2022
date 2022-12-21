@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>This chain</title>
+   <script src="./this-chain.js" defer></script>
+</head>
+<body>
+   <p>Це ladder (сходи) – об'єкт, який дозволяє підніматися вгору та спускатися:</p>
+   <code>
+      <pre>
+      let ladder = {
+         step: 0,
+         up: function () {
+            this.step++;
+         },
+         down: function () {
+            this.step--;
+         },
+         showStep: function () { // показує поточну сходинку
+            alert(this.step);
+         }
+      };
+      </pre>
+   </code>
+   <p>Тепер, якщо нам потрібно зробити кілька послідовних викликів, ми можемо виконати це так:</p>
+   <code><pre>
+      ladder.up();
+      ladder.up();
+      ladder.down();
+      ladder.showStep(); // 1
+   </pre></code>
+   <p>Змініть код методів up, down і showStep таким чином, щоб їх виклик можна було зробити по ланцюжку, наприклад:</p>
+   <code><pre>
+      ladder.up().up().down().showStep(); // 1
+   </pre></code>
+   <p>Такий підхід широко використовується в бібліотеках JavaScript.</p>
+</body>
+</html>
