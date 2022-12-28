@@ -1,8 +1,48 @@
 # Front End Pro 21.10.2022
 
-## Lesson 10
+## Lesson 11
 
 <details open>
+<summary>
+
+#### [This chain](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_11/). Деталі завдання
+
+</summary>
+
+Це ladder (сходи) – об'єкт, який дозволяє підніматися вгору та спускатися:
+```
+      let ladder = {
+         step: 0,
+         up: function () {
+            this.step++;
+         },
+         down: function () {
+            this.step--;
+         },
+         showStep: function () { // показує поточну сходинку
+            alert(this.step);
+         }
+      };
+ ```
+
+Тепер, якщо нам потрібно зробити кілька послідовних викликів, ми можемо виконати це так:
+```
+      ladder.up();
+      ladder.up();
+      ladder.down();
+      ladder.showStep(); // 1
+```
+Змініть код методів up, down і showStep таким чином, щоб їх виклик можна було зробити по ланцюжку, наприклад:
+```
+      ladder.up().up().down().showStep(); // 1
+```
+Такий підхід широко використовується в бібліотеках JavaScript.
+
+</details>
+
+## Lesson 10
+
+<details>
 <summary>
 
 #### [Closures functions](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_10/). Деталі завдання
@@ -24,10 +64,32 @@ sum(20) = 28
 
 ## Lesson 9
 
+<details open>
+<summary>
+
+#### [Search in array](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-9/higher-order-functions/). Деталі завдання
+
+</summary>
+
+Дано масив:  `[16,-37,54,-4,72,-56,47,4,-16,25,-37,46,4,-51,27,-63,4,-54,76,-4,12,-35,4,47]` 
+
+* Знайти суму та кількість додатних елементів.
+* Знайти мінімальний елемент масиву та його порядковий номер.
+* Знайти максимальний елемент масиву та його порядковий номер.
+* Визначити кількість від'ємних елементів.
+* Знайти кількість непарних додатних елементів.
+* Знайти кількість парних додатних елементів.
+* Знайти суму парних додатних елементів.
+* Знайти суму непарних додатних елементів.
+* Знайти добуток додатних елементів.
+* Знайти найбільший серед елементів масиву, решту обнулити. 
+
+</details>
+
 <details>
 <summary>
 
-#### [The Recursive](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-9/). Деталі завдання
+#### [The Recursive](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-9/recursive/). Деталі завдання
 
 </summary>
 
