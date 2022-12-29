@@ -1,5 +1,31 @@
 # Front End Pro 21.10.2022
 
+## Lesson 12
+
+<details open>
+<summary>
+
+#### [Single Character Palindrome](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_12/). Деталі завдання
+
+</summary>
+
+Напишіть функцію, яка приймає рядок `str` і повертає
+
+`OK` - якщо рядок - паліндром  
+`Remove One` - якщо можна видалити одну букву (яка є "зайвою") і рядок стане паліндромом  
+`Not Possible` - якщо жодна з умов не спрацювала
+
+Для перевірки:
+
+`console.log(SingleCharacterPalindrome("abba")); // "OK"`  
+`console.log(SingleCharacterPalindrome("abbaa")); // "Remove One"`  
+`console.log(SingleCharacterPalindrome("abbaab")); // "Not Possible"`  
+`console.log(SingleCharacterPalindrome("madmam")); // "Remove One"`  
+`console.log(SingleCharacterPalindrome("raydarm")); // "Not Possible"`  
+`console.log(SingleCharacterPalindrome("hannah")); // "OK"`  
+
+</details>
+
 ## Lesson 11
 
 <details open>
