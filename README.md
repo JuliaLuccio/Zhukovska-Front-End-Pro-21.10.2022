@@ -1,5 +1,32 @@
 # Front End Pro 21.10.2022
 
+## Lesson 14
+
+<details open>
+<summary>
+
+#### [Amount of prototype levels](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_14/). Деталі завдання
+
+</summary>
+ 
+Напишіть функцію, яка приймає об'єкт і повертає кількість рівнів прототипного успадкування цього об'єкту.
+
+*Підказка* Згадайте про `рекурсію` і про метод `Object.getPrototypeOf()`.
+
+Для перевірки:
+
+```
+const obj = { a: 1 };
+const obj2 = Object.create(obj);
+const obj3 = Object.create(obj2);
+
+console.log(layersOfInheritance({})); // 0
+console.log(layersOfInheritance(new Date())); // 1
+console.log(layersOfInheritance(obj3)); // 2
+```
+
+</details>
+
 ## Lesson 12
 
 <details open>
@@ -17,18 +44,20 @@
 
 Для перевірки:
 
-`console.log(SingleCharacterPalindrome("abba")); // "OK"`  
-`console.log(SingleCharacterPalindrome("abbaa")); // "Remove One"`  
-`console.log(SingleCharacterPalindrome("abbaab")); // "Not Possible"`  
-`console.log(SingleCharacterPalindrome("madmam")); // "Remove One"`  
-`console.log(SingleCharacterPalindrome("raydarm")); // "Not Possible"`  
-`console.log(SingleCharacterPalindrome("hannah")); // "OK"`  
+```
+console.log(SingleCharacterPalindrome("abba")); // "OK"  
+console.log(SingleCharacterPalindrome("abbaa")); // "Remove One"  
+console.log(SingleCharacterPalindrome("abbaab")); // "Not Possible"  
+console.log(SingleCharacterPalindrome("madmam")); // "Remove One"  
+console.log(SingleCharacterPalindrome("raydarm")); // "Not Possible"  
+console.log(SingleCharacterPalindrome("hannah")); // "OK"  
+```
 
 </details>
 
 ## Lesson 11
 
-<details open>
+<details>
 <summary>
 
 #### [This chain](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson_11/). Деталі завдання
@@ -49,7 +78,7 @@
             alert(this.step);
          }
       };
- ```
+```
 
 Тепер, якщо нам потрібно зробити кілька послідовних викликів, ми можемо виконати це так:
 ```
@@ -90,7 +119,7 @@ sum(20) = 28
 
 ## Lesson 9
 
-<details open>
+<details>
 <summary>
 
 #### [Search in array](https://julialuccio.github.io/Zhukovska-Front-End-Pro-21.10.2022/Lesson-9/higher-order-functions/). Деталі завдання
